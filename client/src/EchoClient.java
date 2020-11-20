@@ -77,7 +77,6 @@ public class EchoClient {
         }*/
        //arg[0]
         String arg0 = "127.0.0.1";
-       // String arg0 = "127.0.0.1";
         String arg1 = "0000";
         new EchoClient(arg0, 65534).start(arg1,arg0); // 连接127.0.0.1/65535，并启动
     }
